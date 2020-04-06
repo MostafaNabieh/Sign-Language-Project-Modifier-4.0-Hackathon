@@ -1,7 +1,7 @@
 # Sign Language Project Modifier 4.0 Hackathon
 ## Sign Language
 
-![hand](https://www.startasl.com/wp-content/uploads/asl-alphabet_wallpaper_1920x1200.png)
+![92477053_1111998112480468_2659591075651387392_n](https://user-images.githubusercontent.com/46414243/78540705-d8212d80-77f4-11ea-9a1a-c58ad86e9b53.jpg)
 
 ## AtMega
 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:background="#583F51B5"
+            android:text="Check Arduino "
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:background="#583F51B5"
+            android:text="Check bluetooth"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:text="Check"
+            android:background="#3F51B5"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:enabled="false"
+            android:background="#FF9800"
+            android:text="Start connectation"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Received Text"
+            android:background="#FF9800"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Text"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#ffff"
+            />
+        <Button
+            android:id="@+id/bu_speech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:background="#673AB7"
+            android:text="Sound"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/unnamed" />
+
+    </LinearLayout>
+</RelativeLayout>
+
